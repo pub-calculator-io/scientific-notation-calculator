@@ -2,7 +2,7 @@
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
-Tested up to: 6.3.0
+Tested up to: 6.4.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,12 @@ Scientific notation calculator converts numbers to scientific notation, e-notati
 == Description ==
 
 Scientific notation calculator converts numbers to scientific notation, e-notation, engineering notation, and adds, subtracts, multiplies or divides them.
+
+__Shortcode__
+
+Use the Scientific Notation Calculator shortcode:
+
+`[ci_scientific_notation_calculator]`
 
 Libraries in use:
 1. https://mathjs.org/
@@ -25,8 +31,11 @@ Libraries in use:
 
 1. Upload the /ci_scientific_notation_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Scientific Notation Calculator](https://www.calculator.io/scientific-notation-calculator/ "Scientific Notation Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-3. Configure your settings via Appearance > Widgets > Scientific Notation Calculator.
-4. And you're good to go!
+
+== Usage ==
+* Add the shortcode `[ci_scientific_notation_calculator]` to your page or post and configure default mortgage parameters.
+* If you are using widgets, just add the Scientific Notation Calculator to the sidebar through the `Appearance -> Widgets -> Scientific Notation Calculator` menu in WordPress.
+* Add the following code: `<?php display_ci_scientific_notation_calculator(); ?>` to your template where you would like the Scientific Notation Calculator to appear.
 
 == Screenshots ==
 1. The Scientific Notation Calculator Input Form.
