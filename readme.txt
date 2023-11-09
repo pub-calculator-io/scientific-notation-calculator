@@ -13,6 +13,8 @@ Scientific notation calculator converts numbers to scientific notation, e-notati
 
 Scientific notation calculator converts numbers to scientific notation, e-notation, engineering notation, and adds, subtracts, multiplies or divides them.
 
+[Scientific Notation Calculator Homepage](https://www.calculator.io/scientific-notation-calculator/ "Scientific Notation Calculator Homepage")
+
 __Shortcode__
 
 Use the Scientific Notation Calculator shortcode:
