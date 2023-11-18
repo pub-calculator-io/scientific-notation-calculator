@@ -1,4 +1,4 @@
-# Scientific Notation Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Scientific Notation Calculator Widget for WordPress
 
 Scientific notation calculator converts numbers to scientific notation, e-notation, engineering notation, and adds, subtracts, multiplies or divides them.
 
