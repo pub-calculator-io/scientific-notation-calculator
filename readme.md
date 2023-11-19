@@ -7,7 +7,7 @@ Scientific notation calculator converts numbers to scientific notation, e-notati
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/scientific-notation-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /scientific-notation-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Scientific Notation Calculator](https://www.calculator.io/scientific-notation-calculator/ "Scientific Notation Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 

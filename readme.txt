@@ -1,4 +1,4 @@
-=== Scientific Notation Calculator ===
+=== Scientific Notation Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: scientific notation calculator, converting to scientific notation, engineering notation, mathematical operations in scientific notation, addition, subtraction, multiplication, division, power functions, square root calculations, handling large and small numbers, scientific and engineering calculations
 Requires at least: 5.0
