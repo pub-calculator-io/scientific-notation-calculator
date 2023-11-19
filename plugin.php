@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Scientific Notation Calculator by www.calculator.io
+Plugin Name: CI Scientific notation calculator
 Plugin URI: https://www.calculator.io/scientific-notation-calculator/
 Description: Scientific notation calculator converts numbers to scientific notation, e-notation, engineering notation, and adds, subtracts, multiplies or divides them.
 Version: 1.0.0
