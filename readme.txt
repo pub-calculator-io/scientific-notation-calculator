@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Scientific Nota
 == Screenshots ==
 
 1. The Scientific Notation Calculator Input Form.
-2. The Scientific Notation Calculator Calculation Results.
 
 == Installation ==
 

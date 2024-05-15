@@ -32,7 +32,7 @@
                 </div>
                 <div class="calculator-content col tab tab--active" data-tab="0">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,scientific-notation-converter,binary-calculator,hex-calculator,standard-form-calculator,math-equation-solver  ">
                 			<p class="input__title">Real Number</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="number" value="1568938"  />
@@ -41,7 +41,7 @@
                 		
                 		</label>	</div>
                 	<!-- <div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,scientific-notation-converter,binary-calculator,hex-calculator,standard-form-calculator,math-equation-solver  ">
                 			<p class="input__title">Scientific Notation</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="scientific_notation" value="1.568938 × 10^6"  />
@@ -52,7 +52,7 @@
                 </div>
                 <div class="calculator-content col tab" data-tab="1">
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,scientific-notation-converter,binary-calculator,hex-calculator,standard-form-calculator,math-equation-solver  ">
                 			<p class="input__title">Value 1</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="value_1" value="1.23 x 10^7"  />
@@ -94,7 +94,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row">
-                		<label class="input col   ">
+                		<label class="input col scientific-calculator,scientific-notation-converter,binary-calculator,hex-calculator,standard-form-calculator,math-equation-solver  ">
                 			<p class="input__title">Value 2</p>
                 			<div class="input-field row">
                 				<input type="text" class="input-field__input" placeholder=""  id="value_2" value="3.45 x 10^2"  />
@@ -108,20 +108,25 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Convert</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Convert</button>
                 </div>
                 
                 
+                	<script type="text/javascript" src="./assets/js/lib/math.min.js" async></script>
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row tab " data-tab="1">
                 
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
+                
+                
                 
                 
                 
@@ -140,8 +145,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col tab tab--active" data-tab="0">
 	<div class="result-table__wrapper"> 
 		<table class="result-table">
@@ -150,13 +154,13 @@
 					<th class="dark indigo" colspan="2">RESULT</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="animate">
 				<tr>
 					<th>Scientific Notation</th>
 					<td id="scientific_notation">1.568938 × 10<sup>6</sup></td>
 				</tr>
 				<tr>
-					<th>E-Notation</th>
+					<th>E-notation</th>
 					<td id="e_notation">1.568938e+6</td>
 				</tr>
 				<tr>
@@ -175,7 +179,7 @@
 <div class="calculator-result col tab" data-tab="1">
 	<p class="table-cell table-cell--dark table-cell--only-title">RESULT</p>
 	<div class="table-cell">
-		<p class="result-text" id="result">1.23 x 10<sup>7</sup> + 3.45 x 10<sup>2</sup> = 1.2300345 × 10<sup>7</sup></p>
+		<p class="result-text animate" id="result">1.23 x 10<sup>7</sup> + 3.45 x 10<sup>2</sup> = 1.2300345 × 10<sup>7</sup></p>
 	</div>
 </div>
 
