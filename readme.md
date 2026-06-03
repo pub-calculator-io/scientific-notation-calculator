@@ -1,6 +1,6 @@
 # Scientific Notation Calculator Widget for WordPress
 
-Scientific notation calculator converts numbers to scientific notation, e-notation, engineering notation, and adds, subtracts, multiplies or divides them.
+Use our free Scientific Notation Calculator to convert numbers to scientific, E-notation, or engineering form. Easily add, subtract, multiply & divide values.
 
 ![Scientific Notation Calculator Input Form](/assets/images/screenshot-1.png "Scientific Notation Calculator Input Form")
 
@@ -11,8 +11,8 @@ Scientific notation calculator converts numbers to scientific notation, e-notati
 3. Activate the [Scientific Notation Calculator](https://www.calculator.io/scientific-notation-calculator/ "Scientific Notation Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_scientific_notation_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_scientific_notation_calculator(); ?>` to your template where you would like the Scientific Notation Calculator to appear.
+* Add the shortcode `[calcio_scientific_notation_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_scientific_notation_calculator(); ?>` to your template where you would like the Scientific Notation Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
